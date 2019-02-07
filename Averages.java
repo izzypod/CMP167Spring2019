@@ -3,7 +3,6 @@
  * created: 2-7-19
  * description: this program will find the average of three numbers.
  */
-package week2;
 import java.util.Scanner;
 public class Averages {
 	public static void main(String[] args) {

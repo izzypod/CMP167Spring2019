@@ -1,10 +1,3 @@
-/**
- * 
- */
-/**
- * @author Student
- *
- */
 
 /*
  * File: quadratics.java

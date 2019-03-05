@@ -13,7 +13,7 @@ public class sum {
 		int sumTotal = 0;
 		System.out.println("Enter a natural number:");
 		n = scanny.nextInt();
-		if (n < 1) {
+		if (n < 0) {
 			System.out.println("Invalid number");
 		}
 		

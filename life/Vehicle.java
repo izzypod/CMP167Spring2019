@@ -4,6 +4,13 @@ public class Vehicle {
 	private String brand;
 	private boolean turnOnOff;
 
+	public Vehicle () {
+		this.color = "";
+		this.wheels = 4;
+		this.brand = "";
+		this.turnOnOff = false;
+	}
+
 	public void setWheels(int wheelCount) {
 		wheels = wheelCount;
 	}

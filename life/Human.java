@@ -8,6 +8,14 @@ public class Human {
 	private boolean hasVehicle;
 	private Random randy = new Random();
 
+	public Human() {
+		this.age = 0;
+		this.name = "";
+		this.wealth = 0.0;
+		this.hasVehicle = false;
+		this.hunger = false;
+		this.foodquant = 10;
+	}
 
 	public void setAge(int userAge) {
 		age = userAge;
@@ -30,7 +38,7 @@ public class Human {
 		}
 	}
 	public void setVehicle(boolean carYN) {
-		hasVehicle = carYN;
+		this.hasVehicle = carYN;
 	}
 	public void ageUp() {
 		++age;
@@ -63,5 +71,4 @@ public class Human {
 		}
 	}
 	//FIXME write get methods
-
 }

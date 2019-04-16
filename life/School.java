@@ -5,6 +5,13 @@ public class School {
 	private boolean isPublic;
 	private boolean isOpen;
 
+	public School() {
+		this.name = "";
+		this.classrooms = 5;
+		this.address = "";
+		this.isPublic = true;
+		this.isOpen = false;
+	}
 	public void setRooms(int userRooms) {
 		classrooms = userRooms;
 	}

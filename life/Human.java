@@ -6,6 +6,7 @@ public class Human {
 	private int foodquant;
 	private boolean hunger;
 	private boolean hasVehicle;
+	private Vehicle[] vehicles;
 	private Random randy = new Random();
 
 	public Human() {
@@ -15,6 +16,7 @@ public class Human {
 		this.hasVehicle = false;
 		this.hunger = false;
 		this.foodquant = 10;
+		this.vehicles = new Vehicle[100];
 	}
 
 	public void setAge(int userAge) {

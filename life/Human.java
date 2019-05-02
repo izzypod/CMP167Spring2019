@@ -31,6 +31,24 @@ public class Human {
 	public void setHunger(boolean userHunger) {
 		hunger = userHunger;
 	}
+	public int getAge() {
+		return age;
+	}
+	public String getName() {
+		return name;
+	}
+	public double getWealth() {
+		return wealth;
+	}
+	public int getFoodquant() {
+		return foodquant;
+	}
+	public boolean getHunger() {
+		return hunger;
+	}
+	public Vehicle[] getVehicles() {
+		return vehicles;
+	}
 	public void setFood(boolean gotFood) {
 		if (gotFood) {
 			foodquant = randy.nextInt(100);
@@ -72,5 +90,4 @@ public class Human {
 			System.out.print("I cannot buy food, I don't have enough money.");
 		}
 	}
-	//FIXME write get methods
 }

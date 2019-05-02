@@ -20,6 +20,15 @@ public class Vehicle {
 	public void setColor(String carColor) {
 		color = carColor;
 	}
+	public String getColor() {
+		return color;
+	}
+	public int getWheels() {
+		return wheels;
+	}
+	public void getBrand() {
+		return brand;
+	}
 	public void carOn(String userCommand) {
 		if (userCommand.equalsIgnoreCase("go")) {
 			turnOnOff = true;

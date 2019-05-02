@@ -27,12 +27,26 @@ public class School {
 	public void setOpen(boolean userOpen) {
 		isOpen = userOpen;
 	}
+	public int getRooms() {
+		return rooms;
+	}
+	public String getName() {
+		return name;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public boolean getPublic() {
+		return isPublic;
+	}
+	public boolean getOpen() {
+		return isOpen;
+	}
 	public void openUp(String userCommand) {
 		if (userCommand.equalsIgnoreCase("open school")) {
 			isOpen = true;
 		}
 		isOpen = false;
 	}
-	//FIXME write get methods
 
 }
